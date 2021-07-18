@@ -67,22 +67,14 @@ export default class StarRating extends Component {
           'Content-type': 'application/json; charset=UTF-8',
           Authorization: localStorage.getItem('token'),
         },
-      })
-        .then(() => {
-          const { callStarGraphApi } = this.props;
+      }).then(() => {
+        const { callStarGraphApi, callEachDataApi, selectItem, idx } =
+          this.props;
 
-          if (callStarGraphApi) callStarGraphApi();
-        })
-        .then(() => {
-          const { callEachDataApi } = this.props;
-
-          if (callEachDataApi) callEachDataApi();
-        })
-        .then(() => {
-          const { selectItem, idx } = this.props;
-
-          if (selectItem) selectItem(idx);
-        });
+        if (callStarGraphApi) callStarGraphApi();
+        if (callEachDataApi) callEachDataApi();
+        if (selectItem) selectItem(idx);
+      });
 
       this.setState({
         isHover: false,

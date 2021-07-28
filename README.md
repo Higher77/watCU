@@ -1,6 +1,7 @@
-_프로젝트 소개는 아래를 참고해서 자유롭게 작성해주세요.그대로 따라서 작성하면, 다른 프로젝트와 획일화 되어서 특별해보이지 않습니다. 나만의 언어로 나의 소중한 프로젝트를 특별하게 설명해주세요_
 
 <img src ="https://user-images.githubusercontent.com/78336762/127251466-72890923-3d38-4a95-a9cc-94fb0665107e.png" />
+
+영상 : https://www.youtube.com/watch?v=Hhl-VqsBq54
 
 ### watCU **프로젝트 Front-end / Back-end 소개**
 

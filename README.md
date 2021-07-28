@@ -1,6 +1,6 @@
-*프로젝트 소개는 아래를 참고해서 자유롭게 작성해주세요.그대로 따라서 작성하면, 다른 프로젝트와 획일화 되어서 특별해보이지 않습니다. 나만의 언어로 나의 소중한 프로젝트를 특별하게 설명해주세요*
+_프로젝트 소개는 아래를 참고해서 자유롭게 작성해주세요.그대로 따라서 작성하면, 다른 프로젝트와 획일화 되어서 특별해보이지 않습니다. 나만의 언어로 나의 소중한 프로젝트를 특별하게 설명해주세요_
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa3496e-4454-4df1-91a9-76eac40dd36a/Screen_Shot_2021-07-18_at_2.29.26_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa3496e-4454-4df1-91a9-76eac40dd36a/Screen_Shot_2021-07-18_at_2.29.26_PM.png)
+<img src ="https://user-images.githubusercontent.com/78336762/127251466-72890923-3d38-4a95-a9cc-94fb0665107e.png" />
 
 ### watCU **프로젝트 Front-end / Back-end 소개**
 
@@ -13,9 +13,9 @@
 - 개발기간 : 2021/7/5 ~ 2021/7/16
 - 개발 인원
 
-    👉  Front-end : 성정준, 최민재, 최재상 
+  👉 Front-end : 성정준, 최민재, 최재상
 
-    👉  Back-end : 김예랑, 이신재(PM)
+  👉 Back-end : 김예랑, 이신재(PM)
 
 ## **프로젝트 선정이유**
 
@@ -26,7 +26,7 @@
 
 ### **데모 영상(이미지 클릭)**
 
-*유투브 영상 링크나 캡쳐 이미지 넣어주세요.*
+_유투브 영상 링크나 캡쳐 이미지 넣어주세요._
 
 ## **적용 기술 및 구현 기능**
 
@@ -34,7 +34,7 @@
 
 > Front-End : React.js, sass, react-modal
 
-> Back-End : Python, Django web framework,  PyJWT, Bcrypt, My SQL, AqueryTool, AWS(EC2,RDS)
+> Back-End : Python, Django web framework, PyJWT, Bcrypt, My SQL, AqueryTool, AWS(EC2,RDS)
 
 ### 협업 **도구**
 
@@ -42,7 +42,7 @@
 
 ### **구현 기능**
 
-### 💻  Front-end
+### 💻 Front-end
 
 ### <정준>
 
@@ -51,15 +51,30 @@
 ### <민재>
 
 - **메인 페이지**
-    - path parameter를 이용한 Detail 페이지로의 데이터 이동
-    - state를 활용, style - translateX 값 변경을 통한 슬라이드 이동 구현
-    - data를 활용한 실시간 평가 개수 적용
 
 ### <재상>
 
-- 상품 상세 페이지(Detail)
+### Detail(상품 상세 페이지)
 
-### 💻  Back-end
+- 카테고리 이미지를 CSS효과로 자연스럽게 blur처리가 되도록 구현
+- 비슷한 상품의 이미지를 CSS를 통해 Hover되었을 때 애니메이션 효과 구현
+- 상품의 이미지를 라이브러리를 사용하지않고 슬라이더로 구현
+- 브라우저 창의 width가 990px이하로 줄어들었을 때 화면구성이 변하는 반응형 웹을 구현
+
+### Star(별점/별점그래프 기능)
+
+- watCU의 중요기능이 되는 평점을 별점으로 구현
+
+  - 별을 클릭시 원하는 점수가 매겨지도록 구현
+  - 별점을 준 후 다시 똑같은 별점을 클릭하면 취소하기 기능 구현
+  - 별점을 줬어도 마우스를 Hover하면 1점부터 5점까지 이동할 수 있도록 구현
+
+- 별점과 실시간으로 연동되는 별점그래프 구현
+  - 별점 클릭시 실시간으로 그래프가 변동되도록 구현
+  - 그래프 변동시 transition을 이용하여 애니메이션 효과를 구현
+  - 가장 비율이 높은 별점은 색이 다르게 나타나도록 구현
+
+### 💻 Back-end
 
 ### <공통> Modeling
 
